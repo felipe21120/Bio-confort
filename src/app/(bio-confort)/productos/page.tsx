@@ -1,4 +1,4 @@
-import {Navbar, SubNavbar } from "@/components";
+import { Navbar, SubNavbar } from "@/components";
 import { ContentProducts } from "./ui/ContentProducts";
 import { poppins } from "@/config/fonts";
 import { ScrollWithWhatsApp } from "@/components/scroll/Scroll";

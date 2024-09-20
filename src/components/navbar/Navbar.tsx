@@ -31,9 +31,11 @@ export const Navbar = () => {
           </div>
         </Link>
 
+        <Link href="/contacto">
           <div className={`px-4 py-1 rounded-full cursor-pointer ${isActive('/contacto') ? 'bg-[#EE9210] text-white' : ''}`}>
             Contacto
           </div>
+        </Link>
       </div>
     </nav>
   );

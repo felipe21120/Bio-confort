@@ -23,7 +23,7 @@ export const CompanyContent = () => {
         </div>
         <div className='w-1/2 flex justify-center items-center'>
           <Image 
-            src="/carbon-quienes.png"
+            src="/Carbon-quienes.png"
             alt="Hola"
             width={602}
             height={363}

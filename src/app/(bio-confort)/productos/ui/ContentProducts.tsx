@@ -42,7 +42,14 @@ const TailwindModal: React.FC<ModalProps> = ({ isOpen, closeModal, product }) =>
 
       <div className="bg-white rounded-lg shadow-lg w-3/4 p-6 relative" onClick={(e) => e.stopPropagation()}>
         <div className='flex items-center justify-center'>
-          <div className='w-1/2 flex '>
+          <div className='w-1/2 flex justify-center items-center -ml-5'>
+            <Image 
+              src={product.imageSrc}
+              alt='Hola'
+              width={600}
+              height={400}
+              className='rounded-lg'
+            />
             
           </div>
           <div className='w-1/2 text-sm'>
