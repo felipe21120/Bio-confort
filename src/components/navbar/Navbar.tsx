@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation'; // Usa usePathname para obtener la ruta actual
+import { usePathname } from 'next/navigation';
 import React from 'react';
 
 export const Navbar = () => {
@@ -11,8 +11,8 @@ export const Navbar = () => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <nav className="mt-4 bg-white py-3 shadow-2xl rounded-full px-14">
-      <div className="flex gap-12 justify-center items-center">
+    <nav className="mt-4 bg-white py-2 shadow-2xl rounded-full px-6 lg:px-14">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 justify-center items-center">
         <Link href="/">
           <div className={`px-4 py-1 rounded-full cursor-pointer ${isActive('/') ? 'bg-[#EE9210] text-white' : ''}`}>
             Inicio

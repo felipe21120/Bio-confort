@@ -3,18 +3,27 @@ import { ContentProducts } from "./ui/ContentProducts";
 import { poppins } from "@/config/fonts";
 import { ScrollWithWhatsApp } from "@/components/scroll/Scroll";
 
-
 export default function Productos() {
   return (
     <div>
-
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center px-4 lg:px-0">
         <SubNavbar />
         <Navbar />
 
-        <h1 className={`${poppins.className} antialiased bg-[#EE9210] mt-10 px-8 py-2 rounded-full text-white`} >Nuestros productos</h1>
+        <h1
+          className={`${poppins.className} antialiased bg-[#EE9210] mt-10 px-8 py-2 rounded-full text-white text-center text-lg sm:text-2xl`}
+        >
+          Nuestros productos
+        </h1>
 
-        <p className="mt-6 font-light">Ofrecemos productos de <span className="text-[#EE9210] font-semibold">alta calidad</span> , incluyendo combustibles elaborados a base de <span className="text-[#EE9210] font-semibold">carbón y madera</span>, así como recursos naturales para distribución a terceros, como madera, carbón natural y pallets.</p>
+        <p className="mt-6 font-light text-center text-sm sm:text-base lg:max-w-3xl">
+          Ofrecemos productos de{" "}
+          <span className="text-[#EE9210] font-semibold">alta calidad</span>, 
+          incluyendo combustibles elaborados a base de{" "}
+          <span className="text-[#EE9210] font-semibold">carbón y madera</span>, 
+          así como recursos naturales para distribución a terceros, como madera, 
+          carbón natural y pallets.
+        </p>
       </div>
 
       <ContentProducts />
@@ -24,9 +33,6 @@ export default function Productos() {
         phoneNumber="573007277299"
         message="Hola, como estas"
       />
-      
-
-
     </div>
   );
 }
