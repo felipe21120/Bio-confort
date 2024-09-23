@@ -16,7 +16,7 @@ export const CompanyContent = () => {
       
       {/* Sección ¿Qué Hacemos? */}
       <div className="bg-gray-50 flex flex-col lg:flex-row items-center justify-center py-10 gap-6">
-        <div className="lg:w-1/2 w-full flex flex-col pt-6 px-4 lg:px-40">
+        <div className="lg:w-1/2 w-full flex flex-col pt-6 px-4 lg:px-20 xl:px-32">
           <h4 className="font-light text-[#658C6F] text-xs mb-2">Bioconfort un lugar seguro</h4>
           <h3 className={`${poppins.className} antialiased font-bold text-lg text-[#658C6F]`}>¿Qué Hacemos?</h3>
           <p className="pt-4 font-light text-sm text-justify">
@@ -38,8 +38,8 @@ export const CompanyContent = () => {
       </div>
       
       {/* Sección Misión y Visión */}
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:px-40 gap-10 mt-10">
-        <div className="lg:w-1/2 w-full flex flex-col justify-center px-4 lg:px-10">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:px-20 xl:px-32 gap-10 mt-10">
+        <div className="lg:w-1/2 w-full flex flex-col justify-center px-4 lg:px-5 xl:px-10">
           <div className="flex items-center">
             <h2 className={`${poppins.className} antialiased text-lg font-bold py-4 pr-4 text-[#EE9210]`}>Misión</h2>
             <FaEye />
@@ -60,7 +60,7 @@ export const CompanyContent = () => {
       </div>
 
       {/* Sección Valores */}
-      <div className="bg-gray-50 flex flex-col lg:flex-row items-center justify-center mt-14 lg:px-40 gap-6">
+      <div className="bg-gray-50 flex flex-col lg:flex-row items-center justify-center mt-14 lg:px-32 gap-6">
         <div className="lg:w-1/2 w-full flex justify-center items-center">
           <Image
             src="/bosques-quienes.png"

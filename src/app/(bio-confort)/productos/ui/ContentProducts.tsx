@@ -177,10 +177,10 @@ export const ContentProducts: React.FC = () => {
         <Carrousel />
       </div>
 
-      <div className="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center">
+      <div className="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 place-items-center">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div className="bg-[#F4F4F4] w-80 rounded-2xl p-4 flex flex-col my-3">
+            <div className="bg-[#F4F4F4] w-72  rounded-2xl p-4 flex flex-col my-3">
               <Image
                 src={product.imageSrc}
                 alt={product.title}
