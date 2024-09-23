@@ -49,8 +49,17 @@ export const Footer = () => {
                                 Facebook
                             </a>
                         </li>
-                        <li>Instagram</li>
-                        <li>Twitter</li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/bioconfort231/?utm_source=ig_web_button_share_sheet"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center"
+                            >
+                                Instagram
+                            </a>
+                        </li>
+                       
                     </ul>
                 </div>
 

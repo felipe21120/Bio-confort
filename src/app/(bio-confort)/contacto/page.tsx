@@ -11,7 +11,7 @@ export default function Contacto() {
         <SubNavbar />
         <Navbar />
 
-        <h1 className={`${poppins.className} antialiased bg-[#EE9210] mt-10 px-8 py-2 rounded-full text-white`} >Contactanos</h1>
+        <h1 className={`${poppins.className} antialiased bg-[#EE9210] mt-10 px-8 py-2 rounded-full text-white`} >Contáctanos</h1>
 
     </div>
 

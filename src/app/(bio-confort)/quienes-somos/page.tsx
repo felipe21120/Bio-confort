@@ -13,15 +13,15 @@ export default function QuienesSomos() {
       </div>
 
       {/* Contenido de la Compañía */}
-      <div className="flex-1 w-full px-4 lg:px-8">
+      <div className="flex-1 w-full ">
         <CompanyContent />
       </div>
 
       {/* Scroll con WhatsApp */}
       <ScrollWithWhatsApp
-        className="custom-class fixed bottom-4 right-4 lg:bottom-8 lg:right-8"
-        phoneNumber="573007277299"
-        message="Hola, como estas"
+         className="custom-class"
+         phoneNumber="34614336682"
+         message="Hola, Me interesa conocer mas sobre los productos"
       />
       
     </div>

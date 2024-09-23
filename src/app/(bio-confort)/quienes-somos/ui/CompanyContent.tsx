@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa";
 
 export const CompanyContent = () => {
   return (
-    <div className="mt-10 px-4 lg:px-20">
+    <div className="mt-10">
       
       {/* Frase inicial */}
       <div className="h-20 flex items-center justify-center text-center">
@@ -15,8 +15,8 @@ export const CompanyContent = () => {
       </div>
       
       {/* Sección ¿Qué Hacemos? */}
-      <div className="bg-gray-50 flex flex-col lg:flex-row items-center justify-center py-10 lg:px-40 gap-6">
-        <div className="lg:w-1/2 w-full flex flex-col pt-6 px-4 lg:px-10">
+      <div className="bg-gray-50 flex flex-col lg:flex-row items-center justify-center py-10 gap-6">
+        <div className="lg:w-1/2 w-full flex flex-col pt-6 px-4 lg:px-40">
           <h4 className="font-light text-[#658C6F] text-xs mb-2">Bioconfort un lugar seguro</h4>
           <h3 className={`${poppins.className} antialiased font-bold text-lg text-[#658C6F]`}>¿Qué Hacemos?</h3>
           <p className="pt-4 font-light text-sm text-justify">
@@ -72,7 +72,7 @@ export const CompanyContent = () => {
         </div>
         <div className="lg:w-1/2 w-full flex flex-col px-4 lg:px-10">
           <h3 className={`${poppins.className} antialiased font-bold text-lg text-[#658C6F]`}>Valores</h3>
-          <ul className="mt-5 list-disc font-light text-sm">
+          <ul className="mt-5 list-disc font-light text-sm px-2">
             <li><span className="text-[#658C6F] font-semibold">Sostenibilidad:</span> Comprometidos con prácticas que protejan el medio ambiente y promuevan el uso responsable de los recursos naturales.</li>
             <li><span className="text-[#658C6F] font-semibold">Innovación:</span> Buscamos constantemente nuevas tecnologías y métodos para mejorar la eficiencia y la calidad de nuestros biocombustibles.</li>
             <li><span className="text-[#658C6F] font-semibold">Calidad:</span> Nos aseguramos de que nuestros productos cumplan con los más altos estándares de rendimiento y seguridad.</li>

@@ -11,7 +11,7 @@ export default function Productos() {
         <Navbar />
 
         <h1
-          className={`${poppins.className} antialiased bg-[#EE9210] mt-10 px-8 py-2 rounded-full text-white text-center text-lg sm:text-2xl`}
+          className={`${poppins.className} antialiased bg-[#EE9210] mt-10 px-8 py-2 rounded-full text-white text-center text-lg sm:text-xl`}
         >
           Nuestros productos
         </h1>
@@ -30,8 +30,8 @@ export default function Productos() {
 
       <ScrollWithWhatsApp
         className="custom-class"
-        phoneNumber="573007277299"
-        message="Hola, como estas"
+        phoneNumber="34614336682"
+        message="Hola, Me interesa conocer mas sobre los productos"
       />
     </div>
   );

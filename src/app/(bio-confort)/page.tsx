@@ -16,10 +16,13 @@ export default function Home() {
         <Video />
       </div>
 
-      {/* Sidebar fijo que solo se muestra en pantallas medianas o grandes */}
-      <div className="fixed top-60 right-0 hidden lg:block">
+      {/* Sidebar fijo que solo se muestra en pantallas medianas o grandes 
+      <div className="fixed lg:top-40 right-0 hidden lg:block">
         <SideBar />
       </div>
+      
+      */}
+      
 
       {/* Footer */}
       <div className="bg-[#658C6F] w-full flex justify-center py-2 md:py-4">
